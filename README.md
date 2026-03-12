@@ -55,7 +55,7 @@ while True:
         conn.send("ACK".encode())
 
         if data.lower() == 'exit':  
-            print("Connection closed by client")
+            print("stop and wait completed")
             conn.close()
             break
 ```
